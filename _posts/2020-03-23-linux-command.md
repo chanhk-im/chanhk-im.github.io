@@ -34,47 +34,47 @@ tags:
 파일이나 디렉토리를 제거한다.
 ![](https://chanhk-im.github.io/assets/images/linux-command/rm.png)
 
-## 7. rmdir
-디렉토리를 제거한다.
-![](https://chanhk-im.github.io/assets/images/linux-command/rmdir.png)
+## 7. less
+텍스트 파일 뷰어, 읽기 전용이다.
+![](https://chanhk-im.github.io/assets/images/linux-command/less2.png)  
+![](https://chanhk-im.github.io/assets/images/linux-command/less.png)
 
-## 8. touch
-새로운 파일을 생성한다.
-![](https://chanhk-im.github.io/assets/images/linux-command/touch.png)
+## 8. info
+info 문서를 보는 명령어이다.
+![](https://chanhk-im.github.io/assets/images/linux-command/info.png)
 
 ## 9. cat
 파일의 내용을 출력한다. >를 사용하여 파일에 내용을 입력할 수도 있다.
-![](https://chanhk-im.github.io/assets/images/linux-command/cat1.png)
+![](https://chanhk-im.github.io/assets/images/linux-command/cat1.png)  
 ![](https://chanhk-im.github.io/assets/images/linux-command/cat2.png)
 
 ## 10. head
 파일의 처음 10개의 행을 출력하게 한다.
-![](https://chanhk-im.github.io/assets/images/linux-command/head.png)
+![](https://chanhk-im.github.io/assets/images/linux-command/head.png)  
 또는 아래와 같이 n개의 행만을 출력하게 할 수 있다.
 ![](https://chanhk-im.github.io/assets/images/linux-command/headn.png)
 
 ## 11. tail
 파일의 마지막 10개의 행을 출력하게 한다.
-![](https://chanhk-im.github.io/assets/images/linux-command/tail.png)
+![](https://chanhk-im.github.io/assets/images/linux-command/tail.png)  
 또는 아래와 같이 n개의 행만을 출력하게 할 수 있다.
 ![](https://chanhk-im.github.io/assets/images/linux-command/tailn.png)
 
-## 12. find
-파일이나 디렉토리를 검색하는 명령어이다.
-![](https://chanhk-im.github.io/assets/images/linux-command/find.png)
+## 12. pwd
+현재 디렉토리의 위치를 출력한다.
+![](https://chanhk-im.github.io/assets/images/linux-command/pwd.png)
 
-## 13. more
-파일을 한 페이지 씩 출력한다. Space를 누르면 다음 페이지로 넘어간다.
-![](https://chanhk-im.github.io/assets/images/linux-command/more1.png)
-![](https://chanhk-im.github.io/assets/images/linux-command/more2.png)
+## 13. whatis
+명령어에 대한 간략한 설명을 출력한다.
+![](https://chanhk-im.github.io/assets/images/linux-command/whatis.png)  
 
 ## 14. df
 파일시스템 사용 용량을 출력하는 명령어이다.
 ![](https://chanhk-im.github.io/assets/images/linux-command/df.png)
 
-## 15. du
-현재 디렉토리 내의 파일, 디렉토리의 용량을 출력하는 명령어이다.
-![](https://chanhk-im.github.io/assets/images/linux-command/du.png)
+## 15. type
+파일의 위치, 명령어 정보 확인 등을 할 수 있는 명령어이다.
+![](https://chanhk-im.github.io/assets/images/linux-command/type.png)
 
 ## 16. free
 여유, 사용 메모리양을 보여 주는 리눅스 명령어
@@ -90,12 +90,12 @@ CPU 사용률이 높은 것 부터 프로세스 목록을 출력한다.
 
 ## 19. man
 명령어 등의 설명서를 출력한다.
-![](https://chanhk-im.github.io/assets/images/linux-command/man1.png)
+![](https://chanhk-im.github.io/assets/images/linux-command/man1.png)  
 ![](https://chanhk-im.github.io/assets/images/linux-command/man2.png)
 
 ## 20. clear
 터미널 화면을 깨끗하게 비운다.
-![](https://chanhk-im.github.io/assets/images/linux-command/bclear.png)
+![](https://chanhk-im.github.io/assets/images/linux-command/bclear.png)  
 ![](https://chanhk-im.github.io/assets/images/linux-command/aclear.png)
 
 ## 21. date
@@ -126,13 +126,13 @@ CPU 사용률이 높은 것 부터 프로세스 목록을 출력한다.
 파일이나 디렉토리의 사용 권한을 지정하는 명령어이다.
 ![](https://chanhk-im.github.io/assets/images/linux-command/chmod.png)
 
-## 28. env
-환경변수를 출력한다.
-![](https://chanhk-im.github.io/assets/images/linux-command/env.png)
+## 28. help
+bash 명령어에 대한 도움말을 출력한다.
+![](https://chanhk-im.github.io/assets/images/linux-command/help.png)
 
-## 29. locale
-로케일 정보를 출력한다.
-![](https://chanhk-im.github.io/assets/images/linux-command/locale.png)
+## 29. which
+실행파일의 위치를 찾아서 출력한다.
+![](https://chanhk-im.github.io/assets/images/linux-command/which.png)
 
 ## 30. exit
 현재 세션을 종료한다.
