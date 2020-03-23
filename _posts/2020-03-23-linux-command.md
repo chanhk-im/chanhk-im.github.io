@@ -16,18 +16,31 @@ tags:
 
 ## 2. cd
 디렉토리를 이동한다.
+![](https://chanhk-im.github.io/assets/images/linux-command/cd.png)
 
 ## 3. mkdir
+새로운 디렉토리를 생성한다.
+![](https://chanhk-im.github.io/assets/images/linux-command/mkdir.png)
 
 ## 4. mv
+파일, 디렉토리를 이동시키거나 이름을 변경한다.
+![](https://chanhk-im.github.io/assets/images/linux-command/mv.png)
 
 ## 5. cp
+파일을 복사한다.
+![](https://chanhk-im.github.io/assets/images/linux-command/cp.png)
 
 ## 6. rm
+파일이나 디렉토리를 제거한다.
+![](https://chanhk-im.github.io/assets/images/linux-command/rm.png)
 
 ## 7. rmdir
+디렉토리를 제거한다.
+![](https://chanhk-im.github.io/assets/images/linux-command/rmdir.png)
 
 ## 8. touch
+새로운 파일을 생성한다.
+![](https://chanhk-im.github.io/assets/images/linux-command/touch.png)
 
 ## 9. cat
 
