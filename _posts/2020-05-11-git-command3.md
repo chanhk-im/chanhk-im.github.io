@@ -1,6 +1,6 @@
 ---
 title:  "git 사용법 3"
-excerpt: ""
+excerpt: "위의 사진처럼 협업하기 위해서는 어떤 과정을 거쳐야 할까?.."
 
 categories:
   - study
