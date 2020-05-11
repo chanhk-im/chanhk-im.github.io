@@ -3,9 +3,9 @@ title:  "vim 사용법"
 excerpt: "리눅스에서 vim을 사용하는 법을 정리해 보았다.."
 
 categories:
-  - 리눅스
+  - study
 tags:
-  - 리눅스
+  - linux
   - vim
 ---
 

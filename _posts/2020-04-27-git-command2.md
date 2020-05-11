@@ -3,9 +3,9 @@ title:  "git 사용법 2"
 excerpt: "git에 대한 심화적인 사용법을 정리해 보았다.."
 
 categories:
-  - 리눅스
+  - study
 tags:
-  - 리눅스
+  - linux
   - git
   - github
 ---
@@ -73,7 +73,7 @@ merge할 때 충돌이 일어나면 이런 식으로 충돌난 부분을 표시�
 
 ## 3. 협업
 
->> "회사 기술블로그 repository를 포크떠서 후기 작성하시고 저한테 PR 보내주세요"
+> "회사 기술블로그 repository를 포크떠서 후기 작성하시고 저한테 PR 보내주세요"
 
 https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/ 에서 언급된 문구이다.
 

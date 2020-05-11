@@ -3,9 +3,10 @@ title:  "리눅스 ip, network, domain name 관련 utility 정리"
 excerpt: "리눅스 환경에서 ip, network, domain에 관한 유틸리티를 다뤄 보자.."
 
 categories:
-  - 리눅스
+  - study
 tags:
-  - 리눅스
+  - linux
+  - network
 ---
 
 리눅스 환경에서 ip, network, domain에 관한 유틸리티를 다뤄 보자.

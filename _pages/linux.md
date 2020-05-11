@@ -1,9 +1,9 @@
 ---
-title: "리눅스 카테고리"
-permalink: /categories/리눅스/
+title: "linux 카테고리"
+permalink: /categories/linux/
 layout: category
 author_profile: true
-taxonomy: 리눅스
+taxonomy: linux
 ---
 
-리눅스 관련 글들 모음
+linux 관련 글들 모음

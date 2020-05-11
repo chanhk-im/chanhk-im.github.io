@@ -3,9 +3,9 @@ title:  "git 사용법"
 excerpt: "버전관리 시스템인 git의 사용법을 정리해 보았다.."
 
 categories:
-  - 리눅스
+  - study
 tags:
-  - 리눅스
+  - linux
   - git
   - github
 ---
