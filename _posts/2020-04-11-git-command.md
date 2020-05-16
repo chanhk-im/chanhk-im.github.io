@@ -1,5 +1,5 @@
 ---
-title:  "git 사용법"
+title:  "git 사용법 (1)"
 excerpt: "버전관리 시스템인 git의 사용법을 정리해 보았다.."
 
 categories:

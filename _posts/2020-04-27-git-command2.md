@@ -1,5 +1,5 @@
 ---
-title:  "git 사용법 2"
+title:  "git 사용법 (2)"
 excerpt: "git에 대한 심화적인 사용법을 정리해 보았다.."
 
 categories:

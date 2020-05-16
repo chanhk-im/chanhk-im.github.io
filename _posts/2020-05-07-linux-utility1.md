@@ -1,5 +1,5 @@
 ---
-title:  "리눅스 ip, network, domain name 관련 utility 정리"
+title:  "[리눅스 다루기 (2)] 리눅스 ip, network, domain name 관련 utility 정리"
 excerpt: "리눅스 환경에서 ip, network, domain에 관한 유틸리티를 다뤄 보자.."
 
 categories:
