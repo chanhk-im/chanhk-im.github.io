@@ -11,7 +11,7 @@ tags:
 웹서버를 만들어 보기 이전에 맛보기로 호스팅 사이트를 이용해 간단한 웹서버를 만들어 보자.
 
 우선, 웹서버는 아래 그림과 같은 구조로 작동한다.
-![](https://chanhk-im.github.io/assets/images/my-web-server1/web-server1)
+![](https://chanhk-im.github.io/assets/images/my-web-server1/web-server1.jpg)
 
 서버로 사용할 컴퓨터에 서버 환경을 만들어준다면, 웹서버를 만들어볼 수 있을 것이다.
 서버 환경을 세팅하는 것은 다음으로 미루어 두고, 지금은 호스팅 사이트에서 웹서버를 만들어 볼 것이다.
@@ -31,10 +31,10 @@ FTP는 파일 전송 프로토콜의 준말로 호스팅을 이용할 때 파일
 #### filezilla 설치 및 실행
 [여기](https://filezilla-project.org/)로 들어가서 자신의 컴퓨터에 맞게 다운받아 실행하자.
 실행하면 아래와 같은 화면이 나올 것이다.
-![](https://chanhk-im.github.io/assets/images/my-web-server1/filezilla)
+![](https://chanhk-im.github.io/assets/images/my-web-server1/filezilla.jpg)
 
 #### filezilla 사용
-![](https://chanhk-im.github.io/assets/images/my-web-server1/filezilla2)
+![](https://chanhk-im.github.io/assets/images/my-web-server1/filezilla2.jpg)
 이부분을 작성하고 빠른 연결을 클릭한다.
 - 호스트: 호스팅받은 사이트 주소를 입력
 - 사용자명: 호스팅받을 때 정한 FTP 아이디 입력
@@ -42,10 +42,10 @@ FTP는 파일 전송 프로토콜의 준말로 호스팅을 이용할 때 파일
 - 포트: FTP 접속 시 이용할 포트. 빈 칸으로 두면 된다.
 
 접속 성공 시 아래와 같은 화면이 나온다.
-![](https://chanhk-im.github.io/assets/images/my-web-server1/filezilla3)
+![](https://chanhk-im.github.io/assets/images/my-web-server1/filezilla3.jpg)
 
 몇 개의 메세지가 나오고 오른쪽의 리모트 사이트에 무언가가 나타난다.
-![](https://chanhk-im.github.io/assets/images/my-web-server1/filezilla4)
+![](https://chanhk-im.github.io/assets/images/my-web-server1/filezilla4.jpg)
 
 여기서 메모장 등으로 `index.html` 파일을 만들고 아래의 내용으로 써넣는다.
 ```html
