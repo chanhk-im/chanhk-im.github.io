@@ -25,19 +25,19 @@ git에는 branch라는 기능이 있다. 현재 버전을 그대로 두고 새�
 - `git merge <branch명>`: 현재 branch에서 branch명에 해당하는 이름의 branch를 병합한다.
 
 #### 실습
-![](https://chanhk-im.github.io/assets/images/git-command2/git_branch1.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command2/git_branch1.png)
 
 이런 로그가 있는 git 저장소가 있다. 여기서 "ver_B"라는 branch를 새로 만들 것이다.
 
-![](https://chanhk-im.github.io/assets/images/git-command2/git_branch2.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command2/git_branch2.png)
 
 이렇게 하면 현재 branch는 ver_B에 있게 된다. 여기서 my.txt 파일을 수정 후 커밋해 보겠다.
 
-![](https://chanhk-im.github.io/assets/images/git-command2/git_branch3.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command2/git_branch3.png)
 
 이후, master branch로 돌아가서 ver_B와 병합해 보도록 하겠다.
 
-![](https://chanhk-im.github.io/assets/images/git-command2/git_branch4.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command2/git_branch4.png)
 
 이렇게 성공적으로 병합되었음을 알 수 있다.
 
@@ -47,21 +47,21 @@ git에는 branch라는 기능이 있다. 현재 버전을 그대로 두고 새�
 
 아래는 master에서의 변경이다.
 
-![](https://chanhk-im.github.io/assets/images/git-command2/git_branch5.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command2/git_branch5.png)
 
 아래는 ver_B에서의 변경이다.
 
-![](https://chanhk-im.github.io/assets/images/git-command2/git_branch6.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command2/git_branch6.png)
 
 이제 master로 돌아가서 ver_B와 병합을 한다.
 
-![](https://chanhk-im.github.io/assets/images/git-command2/git_branch7.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command2/git_branch7.png)
 
 병합을 했더니, master에서 추가했던 old.txt와 ver_B에서 추가했던 new.txt가 모두 존재함을 알 수 있다.
 
 #### 충돌!?
 
-![](https://chanhk-im.github.io/assets/images/git-command2/merge_conflict.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command2/merge_conflict.png)
 
 merge할 때 충돌이 일어나면 이런 식으로 충돌난 부분을 표시해 준다. 이를 해결하고 commit하면 된다.
 

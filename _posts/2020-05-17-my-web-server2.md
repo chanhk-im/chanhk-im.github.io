@@ -10,7 +10,7 @@ tags:
   - linux
 ---
 
-[내 웹서버 만들기 시리즈 모음](https://chanhk-im.github.io/my_web_server/)
+[내 웹서버 만들기 시리즈 모음]({{ site.url }}{{ site.baseurl }}/my_web_server/)
 
 지난 글에 이어 내 웹서버 만들기 시리즈의 두 번째인 라즈베리파이에 웹 서비스 세팅하기이다.
 
@@ -25,7 +25,7 @@ tags:
 우선 sd카드를 원래 사용하던 개인 컴퓨터에 연결한다.
 그리고 [여기](https://www.raspberrypi.org/downloads/raspbian/)에 들어가서,
 
-![](https://chanhk-im.github.io/assets/images/my-web-server2/install-raspbian1.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/my-web-server2/install-raspbian1.png)
 위의 이미지에서 보이는 세 개의 항목 중 데스크탑과 몇몇 소프트웨어가 기본적으로 설치되는 
 "Raspbian Buster with desktop and recommended software" 항목을 선택해 라즈비안 이미지를 다운받는다.
 
@@ -33,7 +33,7 @@ tags:
 [여기](https://www.raspberrypi.org/downloads/)로 들어가서 "Raspberry Pi Imager"를 자신의 os에 맞추어 다운받고 설치한다.
 
 아래 이미지는 Raspberry Pi Imager 실행화면이다.
-![](https://chanhk-im.github.io/assets/images/my-web-server2/install-raspbian2.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/my-web-server2/install-raspbian2.png)
 
 "CHOOSE OS"를 선택하면 os를 선택하는 창이 나오는데, 여기서 "Use Custom"을 선택하고, 전에 받아 둔 라즈비안 이미지를 선택한다.(단, 라즈비안 이미지의 경로 중 한글이름이 있으면 안됨)
 
@@ -45,7 +45,7 @@ tags:
 sd card의 root(가장 상위) 경로에 ssh라는 빈 파일을 만들어 준다. 윈도우라면 새 텍스트 파일을 만들어서 이름을 확장자 없이 ssh로 변경해 준다.
 
 Mac의 경우, 터미널을 실행해서 mount 명령어를 이용하여 sd card의 경로를 확인 후 이동한다.
-![](https://chanhk-im.github.io/assets/images/my-web-server2/setting-sd-card1.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/my-web-server2/setting-sd-card1.png)
 
 이후, touch 명령어 등을 실행하여 ssh 파일을 만들어 준다.
 
@@ -133,7 +133,7 @@ $ vi /var/www/html/index.html
 
 그 후 저장하고 종료한 다음, 로컬 컴퓨터(원래 쓰던 컴퓨터)에서 라즈베리파이의 ip주소를 웹 브라우저 주소창에 적어서 접속하고 결과를 확인한다.
 
-![](https://chanhk-im.github.io/assets/images/my-web-server2/my-page.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/my-web-server2/my-page.png)
 
 ## 4. 마치며...
 

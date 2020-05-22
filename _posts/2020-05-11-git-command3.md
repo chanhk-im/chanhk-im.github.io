@@ -10,9 +10,9 @@ tags:
   - github
 ---
 
-![](https://chanhk-im.github.io/assets/images/git-command3/pull-request.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command3/pull-request.png)
 
-위의 사진처럼 협업하기 위해서는 어떤 과정을 거쳐야 할까? [git 사용법 2](https://chanhk-im.github.io/%EB%A6%AC%EB%88%85%EC%8A%A4/git-command2/)에서 다룬 pull request를 세부적으로 공부해 보았다.
+위의 사진처럼 협업하기 위해서는 어떤 과정을 거쳐야 할까? [git 사용법 2]({{ site.url }}{{ site.baseurl }}/%EB%A6%AC%EB%88%85%EC%8A%A4/git-command2/)에서 다룬 pull request를 세부적으로 공부해 보았다.
 
 ## 1. fork
 우선 팀원의 remote repository를 포크해 온다.

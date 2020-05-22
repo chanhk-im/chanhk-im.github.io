@@ -21,11 +21,11 @@ tags:
 `ifconfig`는 일반적으로 네트워크 인터페이스의 IP 주소와 넷마스크의 설정 및 인터페이스의 활성화/비활성화 등을 위해 사용된다. 이 유틸리티를 사용하면 네트워크 인터페이스 변수를 표시하고 분석할 수 있다.
 
 #### 예제
-![](https://chanhk-im.github.io/assets/images/linux-utility1/ifconfig1.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/linux-utility1/ifconfig1.png)
 이렇게 네트워크 인터페이스의 설정을 확인할 수 있다.
 
 또한 `ifconfig <인터페이스명>`으로 해당 인터페이스의 네트워크 정보만 확인할 수도 있다.
-![](https://chanhk-im.github.io/assets/images/linux-utility1/ifconfig2.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/linux-utility1/ifconfig2.png)
 
 #### 옵션
 - `up/down`: 인터페이스를 활성화/비활성화 시킨다.
@@ -47,19 +47,19 @@ ip는 리눅스에서 ip 관련 정보 조회 및 설정에 관한 명령어이�
 
 #### 예제
 - `ip addr`
-  ![](https://chanhk-im.github.io/assets/images/linux-utility1/ip-addr.png)
+  ![]({{ site.url }}{{ site.baseurl }}/assets/images/linux-utility1/ip-addr.png)
 - `ip link`
-  ![](https://chanhk-im.github.io/assets/images/linux-utility1/ip-link.png)
+  ![]({{ site.url }}{{ site.baseurl }}/assets/images/linux-utility1/ip-link.png)
 - `ip route`
-  ![](https://chanhk-im.github.io/assets/images/linux-utility1/ip-route.png)
+  ![]({{ site.url }}{{ site.baseurl }}/assets/images/linux-utility1/ip-route.png)
 - `ip maddr`
-  ![](https://chanhk-im.github.io/assets/images/linux-utility1/ip-maddr.png)
+  ![]({{ site.url }}{{ site.baseurl }}/assets/images/linux-utility1/ip-maddr.png)
 
 ## 3. netstat
 
 네트워크 연결 상태, 라우팅 테이블, 인터페이스의 상태 등을 보여주는 명령어이다.
 
-![](https://chanhk-im.github.io/assets/images/linux-utility1/ip-maddr.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/linux-utility1/ip-maddr.png)
 
 -a 옵션 사용 시, 모든 네트워크의 연결 상태를 보여 준다.
 
@@ -84,7 +84,7 @@ ip는 리눅스에서 ip 관련 정보 조회 및 설정에 관한 명령어이�
 
 `host` 명령어를 이용하여 naver.com의 ip주소를 조회해 보았다.
 
-![](https://chanhk-im.github.io/assets/images/linux-utility1/host.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/linux-utility1/host.png)
 
 ## 5. hostname
 
@@ -96,7 +96,7 @@ ip는 리눅스에서 ip 관련 정보 조회 및 설정에 관한 명령어이�
   
 #### 예제
 
-![](https://chanhk-im.github.io/assets/images/linux-utility1/hostname.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/linux-utility1/hostname.png)
 
 ## 6. ethtool
 
@@ -114,7 +114,7 @@ ip는 리눅스에서 ip 관련 정보 조회 및 설정에 관한 명령어이�
 
 google.co.kr로 접속하는 경로를 확인해 보았다.
 
-![](https://chanhk-im.github.io/assets/images/linux-utility1/traceroute.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/linux-utility1/traceroute.png)
 
 30초가 지나면 자동으로 종료된다. ICMP를 차단하는 서버에는 목적지에 대한 정보를 찾지 못한다.
 
@@ -126,11 +126,11 @@ ip주소로 도메인 주소를 알고자 하거나, 도메인 주소로 ip주�
 #### 사용법
 nslookup 뒤에 조회하려는 도메인 주소를 지정한다. ip주소를 지정하여 역으로 조회할 수도 있다.
 
-![](https://chanhk-im.github.io/assets/images/linux-utility1/nslookup1.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/linux-utility1/nslookup1.png)
 
 MX(Mail Record)를 확인할 수도 있다.
 
-![](https://chanhk-im.github.io/assets/images/linux-utility1/nslookup2.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/linux-utility1/nslookup2.png)
 
 ## 9. ping
 
@@ -146,7 +146,7 @@ MX(Mail Record)를 확인할 수도 있다.
 
 8.8.8.8로 ping을 3회 보낸 모습이다.
 
-![](https://chanhk-im.github.io/assets/images/linux-utility1/ping.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/linux-utility1/ping.png)
 
 ## 출처 및 참고자료
 - https://ko.wikipedia.org/wiki/Ifconfig
