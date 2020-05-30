@@ -1,6 +1,9 @@
 ---
 title:  "[내 웹서버 만들기 (1)] 간단한 웹서버 만들어 보기"
 excerpt: "웹서버를 만들어 보기 이전에 맛보기로 호스팅 사이트를 이용해 간단한 웹서버를 만들어 보자.."
+toc: true
+toc_sticky: true
+toc_label: "페이지 주요 목차"
 
 categories:
   - study
@@ -30,12 +33,12 @@ tags:
 FTP는 파일 전송 프로토콜의 준말로 호스팅을 이용할 때 파일을 다운/업로드 할 수 있는 프로그램이다.
 그 중 filezilla라는 프리웨어로 이용 가능한 프로그램을 사용할 것이다.
 
-#### filezilla 설치 및 실행
+### filezilla 설치 및 실행
 [여기](https://filezilla-project.org/)로 들어가서 자신의 컴퓨터에 맞게 다운받아 실행하자.
 실행하면 아래와 같은 화면이 나올 것이다.
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/my-web-server1/filezilla.png)
 
-#### filezilla 사용
+### filezilla 사용
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/my-web-server1/filezilla2.png)
 이부분을 작성하고 빠른 연결을 클릭한다.
 - 호스트: 호스팅받은 사이트 주소를 입력

@@ -1,6 +1,9 @@
 ---
 title:  "git 사용법 (2)"
 excerpt: "git에 대한 심화적인 사용법을 정리해 보았다.."
+toc: true
+toc_sticky: true
+toc_label: "페이지 주요 목차"
 
 categories:
   - study
@@ -16,15 +19,15 @@ git에 대한 심화적인 사용법을 정리해 보았다.
 
 ## 1. branch와 merge
 
-#### branch란?
+### branch란?
 git에는 branch라는 기능이 있다. 현재 버전을 그대로 두고 새로운 버전을 시험해보고, 이것이 마음에 들면 원래 버전과 합칠 때 사용한다. 
 
-#### 관련 명령어
+### 관련 명령어
 - `git branch <branch명>`: branch명을 생략할 때는 현재 branch와 branch 목록을 띄운다. 그리고 branch명이 있으면 그 이름으로 새 branch를 생성한다.
 - `git checkout <brarnch명>`: branch명에 해당하는 이름의 branch로 이동한다.
 - `git merge <branch명>`: 현재 branch에서 branch명에 해당하는 이름의 branch를 병합한다.
 
-#### 실습
+### 실습
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command2/git_branch1.png)
 
 이런 로그가 있는 git 저장소가 있다. 여기서 "ver_B"라는 branch를 새로 만들 것이다.
@@ -59,7 +62,7 @@ git에는 branch라는 기능이 있다. 현재 버전을 그대로 두고 새�
 
 병합을 했더니, master에서 추가했던 old.txt와 ver_B에서 추가했던 new.txt가 모두 존재함을 알 수 있다.
 
-#### 충돌!?
+### 충돌!?
 
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command2/merge_conflict.png)
 

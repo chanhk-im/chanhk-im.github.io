@@ -1,6 +1,9 @@
 ---
 title:  "git 사용법 (1)"
 excerpt: "버전관리 시스템인 git의 사용법을 정리해 보았다.."
+toc: true
+toc_sticky: true
+toc_label: "페이지 주요 목차"
 
 categories:
   - study
@@ -18,7 +21,7 @@ tags:
 
 ## 1. git 시작
 
-#### git 설치
+### git 설치
 Windows 환경에서는 [여기](https://git-scm.com/)에 들어가서 설치하면 되고,
 Mac 환경에서는 터미널에서 `brew install git`와 `brew upgrade git` 명령어를 실행하면 설치된다.
 
@@ -29,7 +32,7 @@ git config --global user.email "<자신의 email>"
 ```
 명령어를 사용하여 git global 값을 초기화해야 한다.
 
-#### git 시작
+### git 시작
 git을 시작하는 데는 크게 두 가지 명령어가 있다.
 1. `git init`: 현재 디렉토리에서 새로운 깃 저장소를 만든다. 
 
@@ -67,19 +70,19 @@ git commit -m "first commit"
 ## 4. github
 이렇게 git이 관리하는 디렉토리는 github에 올려볼 수도 있다. 
 
-#### github 원격 저장소 생성
+### github 원격 저장소 생성
 우선 [github](https://github.com/)에 들어가 가입한 후, 왼쪽에 있는 New 버튼을 누르거나, 중간의 Start a project 버튼을 누르면 새 원격 저장소를 만들 수 있다.
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command/github_homepage.jpeg)
 
 이후 Repository name에는 원하는 이름을 적어주면 된다.
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command/github_create.png)
 
-#### 로컬 저장소와 연결하기
+### 로컬 저장소와 연결하기
 이제 github 원격 저장소와 아까 commit했던 로컬 저장소를 연결시킬 차례이다.
 `git remote add origin <방금 생성한 로컬 저장소의 웹사이트 주소>.git` 명령어를 사용하면 바로 연결된다.
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command/git_remote.png)
 
-#### push 하기
+### push 하기
 push는 로컬에서 commit한 것을 원격 저장소에 올리는 것이다.
 
 `git push -u origin master` 명령어를 사용하면 원격에 올라간다. github username과 password를 요구할 수도 있다.
@@ -89,7 +92,7 @@ push는 로컬에서 commit한 것을 원격 저장소에 올리는 것이다.
 push 이후, 자신의 원격 저장소에 들어가 보면 다음과 같이 업데이트되었음을 확인해 볼 수 있다.
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/git-command/github_afterpush.png)
 
-#### 변경사항 확인
+### 변경사항 확인
 이후에 Main.c에 변경사항이 생겨 이를 다시 commit 후 push하는 과정을 거쳤다.   
 그런데, github에서는 변경사항을 확인할 수 있다. 
 

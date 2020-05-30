@@ -1,6 +1,9 @@
 ---
 title:  "[리눅스 다루기 (1)] 리눅스 커맨드 정리"
 excerpt: "리눅스에서 사용하는 커맨드 30개를 정리해 보았다."
+toc: true
+toc_sticky: true
+toc_label: "페이지 주요 목차"
 
 categories:
   - study
