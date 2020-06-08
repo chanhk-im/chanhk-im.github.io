@@ -106,3 +106,16 @@ db 정보를 적는 페이지가 나오면 데이터베이스 이름, 사용자�
 
 그리고 관리자 id/pw도 입력해 주고, 기본 설정을 마치면 완료다.
 
+### 2.3. wp 관리
+wp 관리를 위해 디렉토리의 권한을 변경시켜 줘야 한다. super user로 들어와서,
+```
+# chgrp -R www-data ~/html/wordpress/wp-content
+# chmod -R 775 ~/html/wordpress/wp-content
+```
+를 실행한다.
+
+그리고 wp-config.php의 맨 밑에 다음을 추가한다.
+
+```
+define('FS_METHOD', 'direct);
+```
