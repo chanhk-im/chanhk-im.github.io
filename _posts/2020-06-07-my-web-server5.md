@@ -155,3 +155,7 @@ $ mysql -u db_chanhk -p userdb < Chat-Room/database/chat.sql
 ```
 
 이후 접속 테스트를 해 보면 된다.
+
+![]({{ site.url }}{{ site.baseurl }}/assets/images/my-web-server5/db6.png)
+
+다음 편에 계속...
